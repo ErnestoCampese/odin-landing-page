@@ -85,6 +85,39 @@ a {
   width: 100%;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery h2 {
+  color: #1f2937;
+}
+
+.gallery ul {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 48px;
+}
+
+.gallery ul li {
+  width: 100px;
+  color: #1f2937c7;
+  font-weight: lighter;
+  text-align: center;
+  font-size: small;
+}
+
+.gallery ul li img {
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
 /* Utilities */
 
 .bg-blue {
