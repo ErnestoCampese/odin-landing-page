@@ -135,6 +135,33 @@ small {
   font-weight: bold;
 }
 
+.cta {
+  display: flex;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 6px;
+  color: #f9faf8;
+  padding: 0 72px;
+  margin: 48px 0;
+  min-height: 120px;
+}
+
+.cta .cta-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.cta .cta-text h3,
+.cta .cta-text p {
+  margin: 0;
+}
+
+.cta .cta-text h3 {
+  font-weight: bold;
+}
+
 /* Utilities */
 
 .bg-blue {
