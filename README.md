@@ -13,5 +13,10 @@ The main objective of this project is to create a visually appealing landing pag
 ## Reference :books:
 - The Odin Project: https://www.theodinproject.com/lessons/foundations-landing-page
 
-## Credits :tada:
+## Credits 🤝
+Alan Turing Colorized Image: https://commons.wikimedia.org/wiki/File:Alan_Turing_Age_16_Colorized.jpg
+Enigma Machine: By Alessandro Nassiri - Museo della Scienza e della Tecnologia &quot;Leonardo da Vinci&quot;, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=47910919
+Turing Test: Juan Alberto Sánchez Margallo, CC BY 2.5 <https://creativecommons.org/licenses/by/2.5>, via Wikimedia Commons
+Universal Machine: https://en.wikipedia.org/wiki/Turing_machine#/media/File:Turing_Machine_Model_Davey_2012.jpg
+A.I : GDJ, CC0, via Wikimedia Commons
 
