@@ -26,8 +26,6 @@ a {
   width: 900px;
   padding: 0 24px;
   min-width: 600px;
-  /* DEBUG */
-  border: 3px solid lime;
 }
 
 /* Components */
@@ -177,4 +175,21 @@ small {
 
 .bg-gray {
   background-color: #e5e7eb;
+}
+
+.button {
+  border-radius: 4px;
+  padding: 8px 18px;
+  background-color: transparent;
+  border-width: 0;
+  color: #f9faf8;
+  cursor: pointer;
+}
+
+.button.normal {
+  background-color: #3882f6;
+}
+
+.button.inverted {
+  border: 1px solid #f9faf8;
 }
