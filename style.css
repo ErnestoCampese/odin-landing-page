@@ -23,9 +23,9 @@ a {
 
 .section {
   margin: 0 auto;
-  width: 800px;
+  width: 900px;
   padding: 0 24px;
-
+  min-width: 600px;
   /* DEBUG */
   border: 3px solid lime;
 }
@@ -37,7 +37,6 @@ a {
   justify-content: space-between;
   align-items: center;
   padding-top: 12px;
-  padding-bottom: 48px;
 }
 
 .header .logo {
@@ -53,7 +52,37 @@ a {
 }
 
 .header .navigation a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 72px 0;
+  gap: 48px;
+  color: #e5e7eb;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.hero .intro {
+  flex: 1;
+}
+
+.hero .intro h1 {
+  font-size: 36px;
+  font-weight: bolder;
   color: #f9faf8;
+}
+
+.hero .profile-image {
+  flex: 0 1 240px;
+}
+
+.hero .profile-image img {
+  width: 100%;
 }
 
 /* Utilities */
